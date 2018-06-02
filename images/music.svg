@@ -1,18 +1,1 @@
-<?xml version="1.0"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 320 320" style="enable-background:new 0 0 320 320;" xml:space="preserve" width="512px" height="512px"><g transform="matrix(-1 0 0 1 320 0)"><g>
-	<g>
-		<rect y="96" width="256" height="42.667" data-original="#000000" class="active-path" fill="#000000"/>
-	</g>
-</g><g>
-	<g>
-		<rect y="10.667" width="256" height="42.667" data-original="#000000" class="active-path" fill="#000000"/>
-	</g>
-</g><g>
-	<g>
-		<rect y="181.333" width="170.667" height="42.667" data-original="#000000" class="active-path" fill="#000000"/>
-	</g>
-</g><g>
-	<g>
-		<polygon points="213.333,181.333 213.333,309.333 320,245.333   " data-original="#000000" class="active-path" fill="#000000"/>
-	</g>
-</g></g> </svg>
+<svg enable-background="new 0 0 320 320" height="512" viewBox="0 0 320 320" width="512" xmlns="http://www.w3.org/2000/svg"><g transform="matrix(-1 0 0 1 320 0)"><path d="m0 96h256v42.667h-256z"/><path d="m0 10.667h256v42.667h-256z"/><path d="m0 181.333h170.667v42.667h-170.667z"/><path d="m213.333 181.333v128l106.667-64z"/></g></svg>
