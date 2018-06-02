@@ -49,6 +49,7 @@ hr {
 
 .profile-pic {
   border-radius: 50%;
+  cursor: pointer;
   height: 6rem;
   width: 6rem;
   margin-top: 2.3rem;
@@ -302,7 +303,7 @@ hr {
 }
 
 .main-content {
-  background-color: #ebf1f6; 
+  background-color: #ebf1f6;
 }
 
 .graph-container {
@@ -436,14 +437,20 @@ hr {
   width: .7rem;
 }
 
+.job-social-container {
+  display: flex;
+  flex-direction: row;
+}
+
 .job-description-container {
   width: 61%;
+  height: 112.5vh;
 }
 
 .job-description-header {
   align-items: center;
   background-color: #6f7e95;
-  border-radius: 4px;
+  border-radius: 3px;
   display: flex;
   height: 5.2em;
   margin: 0 3.4rem 0 3.5rem;
@@ -481,49 +488,177 @@ hr {
   padding-left: .5rem;
 }
 
-.position-content-container, .location-content-container,
-.employment-content-container {
+.job-content-container, .description-content-container {
   align-items: center;
   background-color: #fff;
-  border-bottom: .5px solid black;
+  border-bottom: 1px solid #eef2f5;
   display: flex;
   margin-left: 3.5rem;
   padding: 1rem 0 1rem 2.5rem;
-  width: 95.7%;
+  width: 95.6%;
 }
 
 .job-description-title-text {
   color: #7a89a0;
-  font-size: .8rem;
+  font-size: .85rem;
   font-weight: 700;
+  margin-right: 4rem;
 }
 
 .job-description-content {
   color: #848e9c;
-  font-weight: 600;
-  padding-left: 4rem;
+  font-weight: 400;
 }
 
 .location-title-text {
   color: #7a89a0;
-  font-size: .8rem;
+  font-size: .85rem;
   font-weight: 700;
+  margin-right: 6.1rem;
 }
 
 .location-content {
   color: #848e9c;
-  font-weight: 600;
-  padding-left: 6.1rem;
+  font-weight: 400;
 } 
 
 .employment-title-text {
   color: #7a89a0;
-  font-size: .8rem;
+  font-size: .85rem;
   font-weight: 700;
+  margin-right: 2.6rem;
 }
 
 .employment-content {
   color: #848e9c;
+  font-weight: 400;
+}
+
+.experience-title-text {
+  color: #7a89a0;
+  font-size: .85rem;
+  font-weight: 700;
+  margin-right: 5.6rem;
+}
+
+.experience-content {
+  color: #848e9c;
   font-weight: 600;
-  padding-left: 2.5rem;
+}
+
+.status-title-text {
+  color: #7a89a0;
+  font-size: .85rem;
+  font-weight: 700;
+  margin-right: 7.5rem;
+}
+
+.status-content {
+  color: #848e9c;
+  font-weight: 600;
+}
+
+.description-content-container {
+  align-items: flex-start;
+}
+
+.description-title-text {
+  color: #7a89a0;
+  font-size: .85rem;
+  font-weight: 700;
+  padding-right: 5rem;
+}
+
+.description-content {
+  color: #848e9c;
+  font-weight: 600;
+  line-height: 1.4rem;
+  max-width: 71%;
+}
+
+.hiring-title-text {
+  color: #7a89a0;
+  font-size: .85rem;
+  font-weight: 700;
+  margin-right: 5.2rem;
+}
+
+.lead-pic-text-container {
+  align-items: center;
+  display: flex;
+}
+
+.hiring-lead-pic {
+  border-radius: 50%;
+  cursor: pointer;
+  height: 3rem;
+  margin-right: 1rem;
+  width: 3rem
+}
+
+.hiring-content {
+  color: #848e9c;
+  font-weight: 600;
+}
+
+.salary-title-text {
+  color: #7a89a0;
+  font-size: .85rem;
+  font-weight: 700;
+  margin-right: 3rem;
+}
+
+.salary-content {
+  color: #5e6a7d;
+  font-weight: 700;
+}
+
+.social-media-container {
+  width: 25.5%;
+  margin-left: 7.5rem;
+}
+
+.facebook-container {
+  background-color: #4b71c3;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 3.4rem;
+}
+
+.twitter-container {
+  background-color: #43abf0;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 1.2rem;
+  height: 3.4rem;
+}
+
+.linkedin-container {
+  background-color: #2f81bd;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 1.2rem;
+  height: 3.4rem;
+}
+
+.social-media-icon {
+  height: 1.3rem;
+  width: 1.3rem;
+  padding-left: 1.5rem;
+}
+
+.social-media-text {
+  color: #f2f4fb;
+  font-size: .95rem;
+  font-weight: 400;
+  padding-left: 3.3rem;
 }
