@@ -257,6 +257,11 @@ select {
   width: 6rem;
 }
 
+.green-button-container:hover {
+  /*background-color: #96d4fe;*/
+  background-color: #3aa4fa;
+}
+
 .open-button-icon {
   display: inline;
   height: .82rem;
@@ -276,6 +281,11 @@ select {
   height: 2.7rem;
   margin-left: .8rem;
   width: 2.7rem;
+}
+
+.save-edit-delete-button:hover {
+  /*background-color:  #96d4fe;*/
+  background-color: #3aa4fa;
 }
 
 .save-edit-delete-icon {
@@ -340,7 +350,6 @@ select {
 .graph-container {
    border-top: 1.5px solid #e1e6ec;
    display: flex;
-   flex-flow: row nowrap;
    padding: 3rem 0 0 2rem;
 }
 
@@ -517,7 +526,7 @@ select {
 .job-content-container, .description-content-container {
   align-items: center;
   background-color: #fff;
-  border-bottom: 1px solid #eef2f5;
+  border-bottom: 1.5px solid #eef2f5;
   display: flex;
   margin-left: 3.5rem;
   padding: 1rem 0 1rem 2.5rem;
@@ -769,8 +778,11 @@ input[type="text"]::placeholder {
 }
 
 @media screen and (max-width: 1000px) {
+  .social-media-container {
+    margin-right: 2rem;
+  }
   .social-media-text {
-    padding-left: 2rem;
+    padding-left: 1.5rem;
   }
   .job-share-container {
     padding-top: .2rem;
@@ -787,5 +799,56 @@ input[type="text"]::placeholder {
   }
   .bar-graph {
     height: 25vh;
+  }
+  .job-description-header {
+    padding-right: .4rem;
+  }  
+}  
+
+@media screen and (max-width: 860px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+  .middle-job-title-container {
+    font-size: .9rem;
+  }
+  .bottom-job-title-container {
+    display: none;
+  }
+  .select-item-list {
+    display: block;
+    font-size: .9rem;
+    margin: 1.5rem auto;
+  }
+  .search-icon-container {
+  width: 12%;
+  }
+  /*.single-chart {
+    padding-right: 1rem;
+  }*/
+  .bar-graph {
+    height: 23vh;
+  }
+  .job-description-header {
+    padding-right: .65rem;
+  }  
+  .job-description-text {
+    font-size: .85rem;
+  }
+  .job-edit-text {
+    font-size: .85rem;
+  }
+  .job-description-title-text {
+    font-size: .8rem;
+  }
+  .job-description-content {
+    font-size: .8rem;
+  }
+  .job-share-container {
+    padding-top: .14rem;
+  }
+  .social-media-text {
+    padding-left: .65rem;
+    font-size: .9rem;
   }
 }  
