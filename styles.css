@@ -28,6 +28,19 @@ hr {
   border: .7px solid #d3dae3;
 }
 
+hr {
+  border: 1.1px solid #d3dae3;;
+}
+
+input[type="search"] {
+  border-bottom: 1px solid #d1d1d1;
+  height: 99%;
+}
+
+select {
+  display: none;
+}
+
 .wrapper {
   display: flex;
 }
@@ -39,20 +52,20 @@ hr {
 }
 
 .top-left-sidebar {
+  align-items: center;
+  border-bottom: 3.4px solid #2c3544;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   padding-bottom: .6rem;
-  border-bottom: 3.4px solid #2c3544;
 }
 
 .profile-pic {
   border-radius: 50%;
   cursor: pointer;
   height: 6rem;
-  width: 6rem;
   margin-top: 2.3rem;
+  width: 6rem;
 }
 
 .profile-name {
@@ -61,10 +74,10 @@ hr {
 }
 
 .chevron-icon {
-  height: .6rem;
-  width: .6rem;
-  margin-left: .65rem;
   cursor: pointer;
+  height: .6rem;
+  margin-left: .65rem;
+  width: .6rem;
 }
 
 .left-main-sidebar, .left-admin-sidebar {
@@ -76,28 +89,26 @@ hr {
 }
 
 .left-main-text, .left-admin-text {
+  align-items: center;
   border-left: 2px solid #354052;
   color: #9eaabd;
   cursor: pointer;
   display: flex;
-  align-items: center;
   font-size: .85rem;
   font-weight: 600;
-  padding-left: 1.1rem;
-  padding-top: .5rem;
-  padding-bottom: .4rem;
+  padding: .5rem 0 .4rem 1.1rem;
 }
 
 .left-main-text:hover, .left-admin-text:hover {
-  border-left: 2px solid #4db6fb;
   background-color: #303949;
+  border-left: 2px solid #4db6fb;
   color: #fff;
 }
 
 .left-main-icon, .left-admin-icon {
   height: 1.2rem;
-  width: 1.2rem;
   padding-right: .9rem;
+  width: 1.2rem;
 }
 
 .left-categories-sidebar {
@@ -113,8 +124,9 @@ hr {
 }
 
 .left-category-container:hover {
-  border-left: 2px solid #4db6fb;
   background-color: #303949;
+  color: #fff;
+  border-left: 2px solid #4db6fb;
 }
 
 .left-category-text {
@@ -131,8 +143,7 @@ hr {
   background-color: #fbd533;
   border-radius: 20%;
   height: .65rem;
-  margin-left: 1.1rem;
-  margin-right: .9rem;
+  margin: 0 .9rem 0 1.1rem;
   padding: .22rem;
   width: .65rem;
 }
@@ -141,8 +152,7 @@ hr {
   background-color: #42affb;
   border-radius: 17%;
   height: .65rem;
-  margin-left: 1.1rem;
-  margin-right: .9rem;
+  margin: 0 .9rem 0 1.1rem;
   padding: .22rem;
   width: .65rem;
 }
@@ -151,8 +161,7 @@ hr {
   background-color: #e94260;
   border-radius: 17%;
   height: .65rem;
-  margin-left: 1.1rem;
-  margin-right: .9rem;
+  margin: 0 .9rem 0 1.1rem;
   padding: .22rem;
   width: .65rem;
 }
@@ -161,8 +170,7 @@ hr {
   background-color: #52ab8b;
   border-radius: 17%;
   height: .65rem;
-  margin-left: 1.1rem;
-  margin-right: .9rem;
+  margin: 0 .9rem 0 1.1rem;
   padding: .22rem;
   width: .65rem;
 }
@@ -174,12 +182,12 @@ hr {
 }
 
 .search-icon-container {
-  border-right: 2px solid #eeeff3;
+  align-items: center;
   border-bottom: 2px solid #eeeff3;
+  border-right: 2px solid #eeeff3;
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 7%;
+  width: 7.5%;
 }
 
 .search-icon-container:hover {
@@ -192,27 +200,28 @@ hr {
 }
 
 .search-input-container {
-  width: 72%;
-  border: none;
   border-bottom: 2px solid #eeeff3;
+  border: none;
+  width: 72%;
 }
 
 .magnifying-glass-icon {
   height: 1.3rem;
-  width: 1.3rem;
-  position: absolute;
   margin: 2.2rem 0 0 1.8rem;
+  position: absolute;
+  width: 1.3rem;
   z-index: 1;
 }
 
 .search-input {
-  width: 100%;
+  border: none;
+  border-top: 2px solid #eeeff3;
+  border-bottom: 2px solid #eeeff3;
+  font-size: 1.1rem;
   height: 100%;
   position: relative;
   text-indent: 4rem;
-  border: none;
-  border-top: 2px solid #eeeff3;
-  font-size: 1.1rem;
+  width: 100%;
 }
 
 ::placeholder {
@@ -261,17 +270,17 @@ hr {
   font-weight: 700;
 }
 
-.save-edit-delete-wrapper {
-  border: 2.2px solid #d3dae3;
+.save-edit-delete-button {
   border-radius: 50%;
+  border: 2.2px solid #d3dae3;
   height: 2.7rem;
-  width: 2.7rem;
   margin-left: .8rem;
+  width: 2.7rem;
 }
 
 .save-edit-delete-icon {
-  padding-top: .1rem;
   height: 1.1rem;
+  padding-top: .1rem;
   width: 1.1rem;
 }
 
@@ -306,18 +315,17 @@ hr {
 
 .bottom-job-title-container {
   display: flex;
-  margin-left: 3.3rem;
-  margin-top: 1.3rem;
+  margin: 1.3rem 0 0 3.3rem;
 }
 
 .summary-text-icon {
+  border-bottom: 4px solid #fff;
   color: #96a0af;
   cursor: pointer;
-  margin: 1rem 3.4rem 0 0;
   font-size: .85rem;
   font-weight: 700;
+  margin: 1rem 3.4rem 0 0;
   padding-bottom: 1.3rem;
-  border-bottom: 4px solid #fff;
 }
 
 .summary-text-icon:hover {
@@ -333,21 +341,20 @@ hr {
    border-top: 1.5px solid #e1e6ec;
    display: flex;
    flex-flow: row nowrap;
-   padding-left: 2rem;
-   padding-top: 3rem;
+   padding: 3rem 0 0 2rem;
 }
 
 .single-chart {
-  width: 20%;
-  margin-right: -2rem;
   justify-content: space-around;
+  margin-right: -2rem;
+  width: 20%;
 }
 
 .circular-chart {
   display: block;
   margin: 10px auto;
-  max-width: 80%;
   max-height: 250px;
+  max-width: 80%;
 }
 
 .circle-bg {
@@ -357,10 +364,10 @@ hr {
 }
 
 .circle {
-  fill: none;
-  stroke-width: 2.3;
-  stroke-linecap: round;
   animation: progress 1s ease-out forwards;
+  fill: none;
+  stroke-linecap: round;
+  stroke-width: 2.3;
 }
 
 @keyframes progress {
@@ -408,10 +415,10 @@ hr {
 }
 
 .left-totals-button {
-  color: #616d80;
   background-color: #fafafc;
-  border: 2.2px solid #d3dae3;
   border-radius: 20px;
+  border: 2.2px solid #d3dae3;
+  color: #616d80;
   font-size: .85rem;
   font-weight: 600;
   height: 2.3rem;
@@ -421,8 +428,8 @@ hr {
 
 .right-applicant-button {
   background-color: #fafafc;
-  border: 2.2px solid #d3dae3;
   border-radius: 20px;
+  border: 2.2px solid #d3dae3;
   color: #616d80;
   font-size: .85rem;
   font-weight: 600;
@@ -441,19 +448,14 @@ hr {
   width: 2.2rem;
 }
 
-hr {
-  /*width: 34.5%;*/
-  border: 1.1px solid #d3dae3;;
-}
-
 .left-line-show-more {
-  width: 34%;
   padding-left: 4.2rem;
+  width: 34%;
 }
 
 .right-line-show-more {
-  width: 34%;
   padding-right: 4.2rem;
+  width: 34%;
 }
 
 .arrow-up-icon {
@@ -467,8 +469,8 @@ hr {
 }
 
 .job-description-container {
+  height: 118vh;
   width: 61%;
-  height: 119.7vh;
 }
 
 .job-description-header {
@@ -636,51 +638,50 @@ hr {
   border-radius: 3px;
   color: #5e6a7d;
   font-weight: 700;
-  padding-top: .3rem;
-  padding-bottom: .7rem;
+  padding: .3rem 0 .7rem 0;
 }
 
 .social-media-container {
-  width: 25.5%;
   margin-left: 7.5rem;
+  width: 25.5%;
 }
 
 .facebook-container {
+  align-items: center;
   background-color: #4b71c3;
   border-radius: 3px;
   cursor: pointer;
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
   height: 3.4rem;
+  justify-content: flex-start;
 }
 
 .twitter-container {
+  align-items: center;
   background-color: #43abf0;
   border-radius: 3px;
   cursor: pointer;
   display: flex;
-  align-items: center;
+  height: 3.4rem;
   justify-content: flex-start;
   margin-top: 1.2rem;
-  height: 3.4rem;
 }
 
 .linkedin-container {
+  align-items: center;
   background-color: #2f81bd;
   border-radius: 3px;
   cursor: pointer;
   display: flex;
-  align-items: center;
+  height: 3.4rem;
   justify-content: flex-start;
   margin-top: 1.2rem;
-  height: 3.4rem;
 }
 
 .social-media-icon {
   height: 1.3rem;
-  width: 1.3rem;
   padding-left: 1.5rem;
+  width: 1.3rem;
 }
 
 .social-media-text {
@@ -688,10 +689,6 @@ hr {
   font-size: .95rem;
   font-weight: 400;
   padding-left: 3.3rem;
-}
-
-.job-share-container {
-
 }
 
 .image-title-wrapper {
@@ -716,8 +713,7 @@ hr {
   color: #8e97a5;
   font-size: .85rem;
   line-height: 1.4rem;
-  margin-top: -.5rem;
-  margin-bottom: 1.3rem;
+  margin: -.5rem 0 1.3rem 0;
 }
 
 .copy-input-container {
@@ -749,11 +745,47 @@ input[type="text"]::placeholder {
 }
 
 .copy-button {
-  color: #e7f5f7;
   background-color: #55bac1;
   border-radius: 4px;
+  color: #e7f5f7;
   font-size: .85rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
   margin-right: .5rem;
+  padding: 0 1rem 0 1rem;
 }
+
+@media screen and (max-width: 1199px) {
+  .sidebar-left {
+    display: none;
+  }
+  .search-area-container {
+  width: 100vw;
+  }  
+  .job-share-container {
+    padding-top: .5rem;
+  }
+  .description-content {
+    padding: 0 1rem 0 1rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .social-media-text {
+    padding-left: 2rem;
+  }
+  .job-share-container {
+    padding-top: .2rem;
+  }
+  .job-share-title {
+    font-size: 1rem;
+  }
+  .search-icon-container {
+  width: 9.5%;
+  }
+  .summary-text-icon {
+    font-size: .75rem;
+    margin-right: 2rem;
+  }
+  .bar-graph {
+    height: 25vh;
+  }
+}  
