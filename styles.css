@@ -916,11 +916,13 @@ input[type="text"]::placeholder {
   }
   .facebook-container, .twitter-container, .linkedin-container {
     justify-content: center;
-
   }
   .job-social-container {
     flex-direction: column;
     align-items: center;
+  }
+  .social-media-icon {
+    padding-left: 0;
   }
   .social-media-text {
     padding-left: .65rem;
@@ -996,6 +998,9 @@ input[type="text"]::placeholder {
     font-weight: 600;
     padding: .5rem 1.3rem;
   }
+   .left-line-show-more, .right-line-show-more {
+    width: 25%;
+  }
 }  
 
 @media screen and (max-width: 560px) {
@@ -1040,6 +1045,10 @@ input[type="text"]::placeholder {
     color: #848e9c;
     font-weight: 600;
   }
+  .show-more-button {
+    height: 2rem;
+    width: 2rem;
+  }
 }
 
 @media screen and (max-width: 485px ) {
@@ -1053,7 +1062,8 @@ input[type="text"]::placeholder {
     height: 22vh;
   }
   .job-description-header {
-    padding-right: .85rem;
+    font-size: .8rem;
+    padding-right: 0;
   }
   .graph-container {
     align-items: center;
@@ -1071,10 +1081,11 @@ input[type="text"]::placeholder {
     width: 100%;
   }
   .job-content-container, .description-content-container {
-    font-size: .85rem;
+    font-size: .8rem;
+    padding-left: 1.5rem;
   }
   .job-social-container {
-    margin-right: 1.25rem;
+    margin-right: .5rem;
   }
   .options-container-mobile {
     align-items: center;
@@ -1094,8 +1105,72 @@ input[type="text"]::placeholder {
   .options-container-mobile:hover {
     background-color: #3aa4fa;
   }
+  .social-media-container {
+    margin-left: 1.2rem;
+  }
 }
 
+@media screen and (max-width: 385px) {
+  h2 {
+    font-size: 1rem;
+  }
+  .middle-job-title-container {
+    font-size: .8rem;
+    margin-left: 2.5rem;
+  }
+  .job-description-header {
+    padding-right: .2rem;
+  }
+  .location-1-icon {
+    margin-top: .6rem;
+  }
+  .location-title-text {
+    margin-right: 5rem;
+  }
+  .hiring-title-text {
+    margin-right: 3.5rem;
+  }
+  .bar-graph {
+    height: 19vh;
+  }
+  .options-container-mobile, .hamburger-icon-container {
+    width: 18.5%;
+  }
+  .left-line-show-more, .right-line-show-more {
+    width: 20%;
+  }
+  .job-description-text {
+    font-size: .75rem;
+    padding-left: 0;
+  }
+  .job-description-title-text, .location-title-text,
+  .employment-title-text, .experience-title-text, 
+  .status-title-text, .description-title-text, 
+  .hiring-title-text, .salary-title-text, .job-edit-text {
+    font-size: .75rem;
+  }
 
-
-
+@media screen and (max-width: 337px) {
+  h2 {
+    font-size: .9rem;
+  }
+  .middle-job-title-container {
+    font-size: .75rem;
+    margin-left: 2.2rem;
+  }
+  .options-container-mobile, .hamburger-icon-container {
+    width: 22.5%;
+  }
+  .bar-graph {
+    height: 17vh;
+  }
+  .location-title-text {
+    margin-right: 4rem;
+  }
+  .description-title-text {
+    padding-right: 4rem;
+  }
+  .hiring-title-text {
+    margin-right: 2rem;
+  }
+}  
