@@ -795,7 +795,7 @@ input[type="text"]::placeholder {
     display: none;
   }
   .search-area-container {
-  width: 100vw;
+    width: 100vw;
   }  
   .job-share-container {
     padding-top: .5rem;
@@ -894,9 +894,9 @@ input[type="text"]::placeholder {
     width: 85%;
   }
   .job-description-header {
+    justify-content: center;
     margin: 0;
     padding-right: 0;
-    justify-content: center;
   }
   .job-content-container, .circular-chart {
     margin: 0;
@@ -911,15 +911,15 @@ input[type="text"]::placeholder {
     font-size: .85rem;
   }
   .social-media-container {
-    width: 85%;
     margin: 0 0 0 .75rem;
+    width: 85%;
   }
   .facebook-container, .twitter-container, .linkedin-container {
     justify-content: center;
   }
   .job-social-container {
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
   }
   .social-media-icon {
     padding-left: 0;
@@ -1019,8 +1019,8 @@ input[type="text"]::placeholder {
     font-size: .85rem;
   }
   .magnifying-glass-icon {
-    margin-top: 1.5rem;
     height: 1.1rem;
+    margin-top: 1.5rem;
     width: 1.1rem;
   }
    .search-area-container {
@@ -1041,8 +1041,8 @@ input[type="text"]::placeholder {
     padding: 0 1rem 0 1rem;
   }  
   .description-content-mobile {
-    display: block;
     color: #848e9c;
+    display: block;
     font-weight: 600;
   }
   .show-more-button {
@@ -1133,6 +1133,12 @@ input[type="text"]::placeholder {
   .bar-graph {
     height: 19vh;
   }
+  .job-social-container {
+    margin-bottom: 4rem;
+  }
+  .social-media-container {
+    margin-top: 4rem;
+  }
   .options-container-mobile, .hamburger-icon-container {
     width: 18.5%;
   }
@@ -1163,6 +1169,9 @@ input[type="text"]::placeholder {
   }
   .bar-graph {
     height: 17vh;
+  }
+  .social-media-container {
+    margin-top: 9.5rem;
   }
   .location-title-text {
     margin-right: 4rem;
