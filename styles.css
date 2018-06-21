@@ -850,6 +850,10 @@ input[type="text"]::placeholder {
   .search-area-container {
     height: 9.5vh;
   }
+  .search-input {
+    background-size: 1.1rem;
+    padding-left: 0;
+  }
   .middle-job-title-container {
     font-size: .9rem;
   }
@@ -861,9 +865,6 @@ input[type="text"]::placeholder {
   }
   .hamburger-icon-container {
     width: 9%;
-  }
-  .magnifying-glass-icon {
-    margin-top: 1.75rem;
   }
   .search-area-icon, .playlist-icon-after {
     height: 1.4rem;
@@ -1009,13 +1010,10 @@ input[type="text"]::placeholder {
     height: 1.2rem;
     width: 1.2rem;
   }
-  ::placeholder {
-    font-size: .85rem;
-  }
-  .magnifying-glass-icon {
-    height: 1.1rem;
-    margin-top: 1.5rem;
-    width: 1.1rem;
+  .search-input {
+    background-size: 1rem;
+    background-position: center left 6%;
+    font-size: 1rem;
   }
    .search-area-container {
     height: 8vh;
@@ -1071,8 +1069,8 @@ input[type="text"]::placeholder {
   .search-icon-container {
     display: none;
   }
-  .search-input-container {
-    width: 100%;
+  .search-input {
+    background-position: center left 7%;
   }
   .job-content-container, .description-content-container {
     font-size: .8rem;
@@ -1128,7 +1126,7 @@ input[type="text"]::placeholder {
     height: 19vh;
   }
   .job-social-container {
-    margin-bottom: 4rem;
+    padding-bottom: 4rem;
   }
   .social-media-container {
     margin-top: 4rem;
@@ -1169,6 +1167,10 @@ input[type="text"]::placeholder {
   }
   .location-title-text {
     margin-right: 4rem;
+  }
+  .search-input {
+    text-indent: 3rem;
+
   }
   .description-title-text {
     padding-right: 4rem;
