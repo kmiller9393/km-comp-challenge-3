@@ -226,29 +226,24 @@ span {
   width: 72%;
 }
 
-.magnifying-glass-icon {
-  height: 1.3rem;
-  margin: 2.2rem 0 0 1.8rem;
-  position: absolute;
-  width: 1.3rem;
-  z-index: 1;
-}
-
 .search-input {
+  background-image: url("images/magnifier-tool.svg");
+  background-size: 1.4rem;
+  background-repeat: no-repeat;
+  background-position: center left 4.5%;
   border: none;
   border-top: 2px solid #eeeff3;
   border-bottom: 2px solid #eeeff3;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   height: 100%;
   padding-left: 1rem;
-  position: relative;
   text-indent: 4rem;
   width: 100%;
 }
 
 ::placeholder {
   color: #a1aab7;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
 }
 
 .add-user-icon {
